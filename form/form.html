@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+	<title>Latihan Membuat Form</title>
+</head>
+
+<body>
+	<!-- Form -->
+
+	<h1> User Form</h1>
+
+	<form>
+		<table>
+			<tr>
+					<td>
+						<label for="name" class="quest"> First Name</label>
+					</td>
+
+					<td>
+						<input type="text" name="name" id="name" required>
+					<td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="password" class="quest"> Password</label>
+				</td>
+
+				<td>
+					<input type="password" name="password" id="password">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="gender" class="quest"> Gender</label>
+				</td>
+
+				<td>
+					<label for="Male">Male</label>
+					<input type="radio" name="gender" id="Male" value="Male">
+					<label for="Female">Female</label>
+					<input type="radio" name="gender" id="Female" value="Female">
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					<label for="address" class="quest">Address</label>
+				</td>
+
+				<td>
+					<textarea id="address" id="address"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="dob" class="quest">D.O.B</label>
+				</td>
+
+				<td>
+					<input type="date" name="dob" id="dob">
+				</td>
+			</tr>
+
+			
+			<tr>
+				<td>
+					<label for="games" class="quest">Select Games</label>
+				</td>
+
+				<td>
+					<label for="hockey">Hockey</label>
+						<input type="checkbox" name="games" id="hockey" value="Hockey">
+
+					<label for="football">Football</label>
+						<input type="checkbox" name="games" id="football" value="Football">
+
+					<label for="cricket">Cricket</label>
+						<input type="checkbox" name="games" id="cricket" value="Cricket" >
+
+					<label for="volley">VolleyBall</label>
+						<input type="checkbox" name="games" id="volley" value="Volley">
+				</td>
+
+			</tr>
+
+
+			<tr>
+				<td>
+					<label for="status" class="quest">Martial Status</label>
+				</td>
+
+				<td>
+					<label for="married">Married</label>
+						<input type="radio" name="status" id="married" value="Married">
+
+					<label for="single">Unmareied</label>
+						<input type="radio" name="status" id="single" value="Unmareied">
+				</td>
+			</tr>
+
+		<table>
+		<center>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</center>
+
+	</form>
+
+</body>
+</html>
